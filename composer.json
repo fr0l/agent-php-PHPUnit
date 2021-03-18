@@ -1,5 +1,5 @@
 {
-  	"name": "reportportal/phpunit",
+  	"name": "fr0l/reportportal_phpunit",
 	"type" : "library",
 	"description" : "Basic classes for Report Portal collaboration with PHPUnit",
 	"keywords" : [
@@ -16,8 +16,14 @@
 			"role" : "Developer"
 		}
 	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:fr0l/client-php.git"
+		}
+	],
   	"require": {
-    	"phpunit/phpunit": "7.3.0",
-	"reportportal/basic" : "1.0.x-dev"
-  }
+    	"phpunit/phpunit": "8.4.3-a3",
+		"fr0l/reportportal_basic" : "*"
+  	}
 }
